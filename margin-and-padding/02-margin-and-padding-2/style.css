@@ -1,6 +1,7 @@
 body {
   background: #eee;
   font-family: sans-serif;
+  box-sizing: border-box;
 }
 
 .card {
@@ -11,17 +12,37 @@ body {
 
 .title {
   background: #e3f4ff;
+  margin: 10px;
+  border-top: 10px solid white; /*instead of border, use margin*/
+  padding: 10px;
+  font-size: 16px; /* correction: font size*/
 }
 
 .content {
   background: #e3f4ff;
+  padding-top: 15px;
+  padding-bottom: 15px; /*can be condensed to padding 16x 8px*/
+  padding-left: 8px;
+  padding-right: 8px; /* correction: padding is smaller on sides*/
+  margin: 10px;
 }
 
 .button-container {
   background: #e3f4ff;
+  text-align: center;
+  margin: 10px;
+  border-bottom: 10px solid white;
+  padding: 10px;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 24px;
+  padding-right: 24px;
+  /*CORREcTION: ADD PADDING TO BUTTON TO MAKE IT BIGGER*/
+  display: block;
+  margin: auto;
 }

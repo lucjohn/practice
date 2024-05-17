@@ -35,28 +35,28 @@ which _is_ the best practice.
 We separated it out here to make it extra clear what has changed. */
 
 .card {
-  padding: 8px;
+  padding: 8px; /*8px between edge and content*/
 }
 
 .title {
-  margin-top: 0;
-  margin-bottom: 8px;
-  font-size: 16px;
-  padding: 8px;
+  margin-top: 0; /*there will be no content above this element + outline is already added by card padding*/
+  margin-bottom: 8px; /*8px gap from the element below this*/
+  font-size: 16px; /*16px font for title*/
+  padding: 8px; /*8px between title and edge of title section*/
 }
 
 .content {
   margin-bottom: 8px;
-  padding: 16px 8px;
+  padding: 16px 8px; /*The content section has 16px space on the top and bottom, and 8px on either side.*/
 }
 
 .button-container {
-  text-align: center;
+  text-align: center; /*center the text*/
   padding: 8px;
 }
 
 button {
-  display: block;
-  margin: 0 auto;
+  display: block; /*creates own new line*/
+  margin: 0 auto; 
   padding: 8px 24px;
 }
